@@ -16,12 +16,12 @@ export const AppTheme = {
     lessFor: "#dad2bc",
     forground: "#f5f1ed",
   },
-  color: {
-    dark: "#8f2d56",
-    lessDark: "#d81159",
-    medium: "#73d2de",
-    lessLight: "#218380",
-    light: "#ffbc42",
+  minorColor: {
+    backGround: "#8f2d56",
+    lessBack: "#d81159",
+    mid: "#73d2de",
+    lessFor: "#218380",
+    forground: "#ffbc42",
   },
   font: {
     regular: "Poppins, sans-serif",
@@ -46,7 +46,7 @@ flex-direction: column;
  */
 export const AppGlobalStyle = createGlobalStyle`
   :root {
-    background-color:${AppTheme.mainColor.forground}
+    background-color:${AppTheme.mainColor.backGround}
   }
   html, body, #root {
     margin: 0;

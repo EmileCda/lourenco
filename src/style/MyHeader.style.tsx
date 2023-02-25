@@ -23,21 +23,20 @@ export const HeaderUpper = styled.div`
   min-width: 100vw;
   display: flex;
   justify-content: space-between;
-  background-color: ${AppTheme.mainColor.lessFor};
   padding: 0px 10px;
 `;
 
 export const HeaderLower = styled.div`
   min-width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  background-color: ${AppTheme.mainColor.lessBack};
   padding: 0px 10px;
 `;
 
 export const Logo = styled.div`
   font-family: ${AppTheme.font.Logo};
+  color: ${AppTheme.mainColor.forground};
   font-size: 4rem;
   transform: rotate(-10deg);
 
@@ -57,11 +56,19 @@ export const NavBar = styled.div`
   text-decoration: none;
   font-family: ${AppTheme.font.regular};
   font-size: .8rem;
+  color: ${AppTheme.mainColor.forground};
+  display: none;
+  
 
   li {
     cursor: pointer;
     margin: 0px 4px;
   }
+  li:hover {
+    color: ${AppTheme.minorColor.forground};
+    font-weight: bold;
+  }
+  
   ul {
     display: flex;
     flex-direction: row;
@@ -70,5 +77,7 @@ export const NavBar = styled.div`
   }
 `;
 export const BurgerMenu = styled.div`
+  color: ${AppTheme.mainColor.forground};
   font-size: 2rem;
+  cursor: pointer;
 `;
