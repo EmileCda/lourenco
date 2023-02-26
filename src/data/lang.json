@@ -1,0 +1,469 @@
+{
+  "lang": ["fr", "en", "pr"],
+  "langDesc": {
+    "fr": "Langue Française",
+    "en": "English speaking",
+    "pr": "língua portuguesa"
+  },
+
+  "name": {
+    "fr": "Existentia",
+    "en": "Existentia",
+    "pr": "Existentia"
+  },
+
+  "navBar": [
+    {
+      "fr": "Accueil",
+      "en": "[uk] Home",
+      "pr": "[PR] Accueil",
+      "link": "./"
+    },
+    {
+      "fr": "Le mozambique",
+      "en": "[uk] Le mozambique",
+      "pr": "[PR] Le mozambique",
+      "link": "./Country"
+    },
+    {
+      "fr": "Les services",
+      "en": "[uk] Les services",
+      "pr": "[PR] Les services",
+      "link": "./Services"
+    },
+    {
+      "fr": "Package",
+      "en": "[uk] Package",
+      "pr": "[PR] Package",
+      "link": "./Packages"
+    },
+    {
+      "fr": "Contact",
+      "en": "[uk] Contact",
+      "pr": "[PR] Contact",
+      "link": "./About"
+    }
+  ],
+
+  "carouselInterval": 5000,
+  "carousel": [
+    {
+      "fr": "description image 1",
+      "en": "[en] description image 1",
+      "pr": "[pr]description image 1",
+      "url": "/src/image/Vilankulous1.jpg"
+    },
+    {
+      "fr": "description image 2",
+      "en": "[en] description image 2",
+      "pr": "[pr]description image 2",
+      "url": "/src/image/Vilankulous2.jpg"
+    },
+    {
+      "fr": "description image 3",
+      "en": "[en] description image 3",
+      "pr": "[pr]description image 3",
+      "url": "/src/image/Vilankulous3.jpg"
+    },
+    {
+      "fr": "description image4",
+      "en": "[en] description image4",
+      "pr": "[pr]description image4",
+      "url": "/src/image/maputo1.jpg"
+    },
+    {
+      "fr": "description image5",
+      "en": "[en] description image5",
+      "pr": "[pr]description image5",
+      "url": "/src/image/maputo2.jpg"
+    },
+    {
+      "fr": "description image6",
+      "en": "[en] description image6",
+      "pr": "[pr]description image6",
+      "url": "/src/image/maputo3.jpg"
+    }
+  ],
+
+
+  "services": [
+    {
+      "title": {
+        "fr": "Home services",
+        "en": "[en]Home services",
+  "pr": "[pr]Home services"
+      },
+      "prelude":{
+        "fr": "prelude description Home services",
+        "en": "[en]prelude description Home services",
+        "pr": "[pr]pre{lude description Home services"
+      },
+      "epilog":{
+        "fr": "Epilog description Home services",
+        "en": "[en]Epilog description Home services",
+        "pr": "[pr]Epi{log  description Home services"
+      },
+      "alt":{
+        "fr": "Image représentant description Home services",
+        "en": "[en]Image représentant description Home services",
+        "pr": "[pr]Image représen{tant description Home services"
+      },
+      "image":{
+        "fr": "/src/image/home-services.jpg",
+        "en": "/src/image/home-services.jpg",
+        "pr": "/src/image/home-services.jpg"
+      
+    
+  }},
+   
+    {
+      "title":{
+        "fr": "Familly",
+        "en": "[en]Familly{",
+        "pr": "[pr]Familly"
+      },
+      "prelude":{
+        "fr": "prelude description Familly",
+        "en": "[en]prelude description Familly",
+        "pr": "[{pr]prelude description Familly"
+      },
+      "epilog":{
+        "fr": "Epilog description Familly",
+        "en": "[en]Epilog description Familly",
+        "pr": "[{pr]Epilog  description Familly"
+      },
+      "alt":{
+        "fr": "Image représentant description Familly",
+        "en": "[en]Image représentant description Familly",
+        "pr": "[pr]Image re{présentant description Familly"
+      },
+      "image":{
+        "fr": "/src/image/familly-services.jpg",
+        "en": "/src/image/familly-services.jpg",
+        "pr": "/{src/image/familly-services.jpg"
+      
+    }},
+    {
+      "title":{
+        "fr": "Mobility and Car",
+        "en": "[en]Mobility and Car",
+        "pr": "[pr]Mobility and Car"
+      },
+      "prelude":{
+        "fr": "prelude description Mobility and Car",
+        "en": "[en]prelude description Mobility and Car",
+        "pr": "[pr]prelud{e description Mobility and Car"
+      },
+      "epilog":{
+        "fr": "Epilog description Mobility and Car",
+        "en": "[en]Epilog description Mobility and Car",
+        "pr": "[pr]Epilog{  description Mobility and Car"
+      },
+      "alt":{
+        "fr": "Image représentant description Mobility and Car",
+        "en": "[en]Image représentant description Mobility and Car",
+        "pr": "[pr]Image représentan{t description Mobility and Car"
+      },
+      "image":{
+        "fr": "/src/image/mobility-and-car-services.jpg",
+        "en": "/src/image/mobility-and-car-services.jpg",
+        "pr": "/{src/image/mobility-and-car-services.jpg"
+      
+    }},
+       {
+      "title":{
+        "fr": "In the country",
+        "en": "[en]In the country",
+        "pr": "[pr]In the country"
+      },
+      "prelude":{
+        "fr": "prelude description In the country",
+        "en": "[en]prelude description In the country",
+        "pr": "[pr]prel{ude description In the country"
+      },
+      "epilog":{
+        "fr": "Epilog description In the country",
+        "en": "[en]Epilog description In the country",
+        "pr": "[pr]Epil{og  description In the country"
+      },
+      "alt":{
+        "fr": "Image représentant description In the country",
+        "en": "[en]Image représentant description In the country",
+        "pr": "[pr]Image représent{ant description In the country"
+      },
+      "image":{
+        "fr": "/src/image/in-the-country-services.jpg",
+        "en": "/src/image/in-the-country-services.jpg",
+        "pr": "/src/image/in-the-country-services.jpg"
+     
+       }},
+    {
+      "title":{
+        "fr": "Leisures",
+        "en": "[en]Leisures",
+        "pr": "[pr]Leisures"
+      },
+      "prelude":{
+        "fr": "prelude description Leisures",
+        "en": "[en]prelude description Leisures",
+        "pr": "[p{r]prelude description Leisures"
+      },
+      "epilog":{
+        "fr": "Epilog description Leisures",
+        "en": "[en]Epilog description Leisures",
+        "pr": "[p{r]Epilog  description Leisures"
+      },
+      "alt":{
+        "fr": "Image représentant description Leisures",
+        "en": "[en]Image représentant description Leisures",
+        "pr": "[pr]Image rep{résentant description Leisures"
+      },
+      "image":{
+        "fr": "/src/image/leisures-services.jpg",
+        "en": "/src/image/leisures-services.jpg",
+        "pr": "/src/image/leisures-services.jpg"
+      }
+    }
+
+  ],
+
+  "infoService": {
+    "title": {
+      "fr": "Nos services",
+      "en": "[en]Nos services",
+      "pr": "[pr]Nos services"
+    },
+    "prelude": {
+      "fr": "premule Nos services Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse.",
+      "en": "[en]premule Nos services Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse.",
+      "pr": "[pr]premule Nos services Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse."
+    },
+    "epilog": {
+      "fr": "Epilog premule Nos services Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse.",
+      "en": "[en]Epilog premule Nos services Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse.",
+      "pr": "[pr]Epilog premule Nos services Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse."
+    },
+    "alt": {
+      "fr": "Image représentant nos services",
+      "en": "[en]Image représentant nos services",
+      "pr": "[pr]Image représentant nos services"
+    },
+    "image": {
+      "fr": "/src/image/nos-services.jpg",
+      "en": "/src/image/nos-services.jpg",
+      "pr": "/src/image/nos-services.jpg"
+    }
+  },
+
+  "infoPackage": {
+    "title": {
+      "fr": "Package services & Rates",
+      "en": "[en]Package services & Rates",
+      "pr": "[pr]Package services & Rates"
+    },
+    "prelude": {
+      "fr": "premule Nos packages Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse.",
+      "en": "[en]premule Nos packages Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse.",
+      "pr": "[pr]premule Nos packages Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse."
+    },
+    "epilog": {
+      "fr": "Epilog premule Nos packages Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse.",
+      "en": "[en]Epilog premule Nos packages Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse.",
+      "pr": "[pr]Epilog premule Nos packages Voltaire est l'un des philosophes des lumières les plus célèbres. Il s'engage dans la défense de la justice et de la tolérance religieuse."
+    },
+    "alt": {
+      "fr": "Image représentant nos packages",
+      "en": "[en]Image représentant nos packages",
+      "pr": "[pr]Image représentant nos packages"
+    },
+    "image": {
+      "fr": "/src/image/nos-packages.webp",
+      "en": "/src/image/nos-packages.webp",
+      "pr": "/src/image/nos-packages.webp"
+    }
+  },
+  "102": [
+    "service organisation de voyage",
+    "[uk]Organisation de voyage",
+    "[PR]"
+  ],
+  "103": [
+    "Personnel de maison",
+    "[uk]Personnel de maison",
+    "[PR]Personnel de maison"
+  ],
+  "104": [
+    "Prise-de-rendez-vous",
+    "[uk]Prise-de-rendez-vous",
+    "[PR]Prise-de-rendez-vous"
+  ],
+  "105": [
+    "Restaurants-et-Nightlife",
+    "[uk]Restaurants-et-Nightlife",
+    "[PR]Restaurants-et-Nightlife"
+  ],
+  "106": [
+    "service de Service-de-livraison",
+    "[uk]service de Service-de-livraison",
+    "[PR]service de Service-de-livraison"
+  ],
+  "201": ["En savoir plus", "[uk]En savoir plus", "[PR]En savoir plus"],
+  "202": [
+    "Les équipes de Premium Conciergerie sont à votre service 24h heures sur 24 et 7 jours sur 7, pour vous faciliter la vie au quotidien. ",
+    "[uk]Les équipes de Premium Conciergerie sont à votre service 24h heures sur 24 et 7 jours sur 7, pour vous faciliter la vie au quotidien. ",
+    "[PR]Les équipes de Premium Conciergerie sont à votre service 24h heures sur 24 et 7 jours sur 7, pour vous faciliter la vie au quotidien. "
+  ],
+  "203": [
+    "explication personnel de maison",
+    "[uk]explication personnel de maison",
+    "[PR]explication personnel de maison"
+  ],
+  "204": [
+    "Prise-de-rendez-vous texte long ",
+    "[uk]Prise-de-rendez-vous texte long",
+    "[PR]Prise-de-rendez-vous texte long"
+  ],
+  "205": [
+    "Restaurants-et-Nightlife texte long ",
+    "[uk]Restaurants-et-Nightlife texte long",
+    "[PR]Restaurants-et-Nightlife texte long"
+  ],
+  "206": [
+    "sservice de Service-de-livraison texte long",
+    "[uk]sservice de Service-de-livraison texte long",
+    "[PR]sservice de Service-de-livraison texte long"
+  ],
+  "301": [
+    "Découvrez nos offres",
+    "[uk] Découvrez nos offres",
+    "[PR]Découvrez nos offres"
+  ],
+  "302": ["En savoir plus", "[uk] En savoir plus", "[PR]En savoir plus"],
+  "303": [
+    "Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Conciergerie sont valables pour le porteur ainsi que la personne de son choix.",
+    "[uk] Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Conciergerie sont valables pour le porteur ainsi que la personne de son choix.",
+    "[PR]Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Conciergerie sont valables pour le porteur ainsi que la personne de son choix."
+  ],
+  "infoPackTitle": [
+    "Découvrez nos offres",
+    "[uk] Découvrez nos offres",
+    "[PR] Découvrez nos offres"
+  ],
+  "infoPack": [
+    "Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Existentia sont valables pour le porteur ainsi que la personne de son choix",
+    "[uk] Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Existentia sont valables pour le porteur ainsi que la personne de son choix",
+    "[PR] Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Existentia sont valables pour le porteur ainsi que la personne de son choix"
+  ],
+  "pack0": ["Forfait Serenity", "[uk] Pack Serenity", "[PR] Pack Serenity"],
+  "pack1": ["Forfait Elite", "[uk] Pack Elite", "[PR] Pack Elite"],
+  "pack2": [
+    "Forfait Experience",
+    "[uk] Pack Experience",
+    "[PR] Pack Experience"
+  ],
+  "packDesc0": [
+    "description long Forfait Serenity Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[uk] description long Forfait Serenity Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[PR] description long Forfait Serenity Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
+  ],
+  "packDesc1": [
+    "description long Forfait Elite Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[uk] description long Forfait Elite Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[PR] description long Forfait Elite Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
+  ],
+  "packDesc2": [
+    "description long Forfait Experience Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[uk] description long Forfait Experience Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[PR] description long Forfait Experience Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
+  ],
+  "packPrice0": ["2600 €", "[uk] $2800", "[PR] 180 000 MT"],
+  "packPrice1": ["3600 €", "[uk] $3800", "[PR] 250 000 MT"],
+  "packPrice2": [" à définir €", "[uk]$ To plan ", "[PR] ??? MT"],
+  "packAsset0": [
+    "avantage Package Serenity",
+    "[uk] avantage Package Serenity",
+    "[PR]avantage Package Serenity"
+  ],
+  "packAsset1": [
+    "avantage Package Elite",
+    "[uk] avantage Package Elite",
+    "[PR]avantage Package Elite"
+  ],
+  "packAsset2": [
+    "avantage Package Experience",
+    "[uk] avantage Package Experience",
+    "[PR]avantage Package Experience"
+  ],
+  "packMore": [
+    "Package En savoir plus",
+    "[uk] Package En savoir plus",
+    "[PR] PackageEn savoir plus"
+  ],
+  "infoServiceTitle": ["Existentia", "Existentia", "Existentia"],
+  "service0": ["aides à domicile", "[uk] Home services", "[PR] Home services"],
+  "service1": ["En famille", "[uk] Familly", "[PR] Home services"],
+  "service2": ["Mobilité", "[uk] Mobility", "[PR] Home services"],
+  "service3": ["Voiturier", "[uk] Car", "[PR] Home services"],
+  "service4": ["au mozambique", "[uk] In the country", "[PR] Home services"],
+  "service5": ["Loisirs", "[uk] leisures", "[PR] Home services"],
+
+  "serviceDesc0": [
+    "aides à domicile  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[UK] aides à domicile  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[PR] aides à domicile  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
+  ],
+  "serviceDesc1": [
+    "En famille  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[UK] En famille  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[PR] En famille  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
+  ],
+  "serviceDesc2": [
+    "Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[UK] Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[PR] Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
+  ],
+  "serviceDesc3": [
+    "Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[UK] Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[PR] Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
+  ],
+  "serviceDesc4": [
+    "au mozambique  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[UK] au mozambique  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[PR] au mozambique  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
+  ],
+  "serviceDesc5": [
+    "Loisirs  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[UK] Loisirs  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
+    "[PR] Loisirs  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
+  ],
+  "serviceMore": [
+    "Package En savoir plus",
+    "[uk] Package En savoir plus",
+    "[PR] PackageEn savoir plus"
+  ],
+
+  "401": ["Contact", "[uk] Contact", "[PR]Contact"],
+
+  "402": ["Map ", "[uk] Map ", "[PR]Map "],
+  "403": ["FAQ", "[uk] FAQ", "[PR]FAQ"],
+  "404": ["CGV", "[uk] CGV", "[PR]CGV"],
+  "405": ["Contact", "[uk] Contact", "[PR]Contact"],
+  "406": ["Contact", "[uk] Contact", "[PR]Contact"],
+  "407": ["mention légales", "[uk] mention légales", "[PR]mention légales"],
+  "408": [
+    "Données personnelles",
+    "[uk] Données personnelles",
+    "[PR]Données personnelles"
+  ],
+  "409": [
+    " Contactez-nous sur whatsapp ",
+    "[uk]  Contactez-nous sur whatsapp ",
+    "[PR] Contactez-nous sur whatsapp "
+  ],
+  "9995": [
+    "Prix Package Alpha",
+    "[uk] Prix Package Alpha",
+    "[PR]Prix Package Alpha"
+  ]
+}

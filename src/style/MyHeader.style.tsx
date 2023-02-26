@@ -53,18 +53,18 @@ export const LanguageBar = styled.div`
   }
 `;
 export const NavBar = styled.div`
-  text-decoration: none;
+  
   font-family: ${AppTheme.font.regular};
   font-size: .8rem;
-  color: ${AppTheme.mainColor.forground};
-  display: none;
+  /* display: none; */
   
-
-  li {
+  li a {
     cursor: pointer;
     margin: 0px 4px;
+    text-decoration: none;
+    color: ${AppTheme.mainColor.forground};
   }
-  li:hover {
+  li a:hover {
     color: ${AppTheme.minorColor.forground};
     font-weight: bold;
   }

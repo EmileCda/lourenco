@@ -25,7 +25,7 @@ export const AppTheme = {
   },
   font: {
     regular: "Poppins, sans-serif",
-    extra: "Poppins, sans-serif",
+    extra: "Bilbo Swash Caps, cursive",
     Logo: "Bilbo Swash Caps, cursive",
   },
   BorderRadius: "0.6rem",
