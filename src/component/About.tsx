@@ -1,15 +1,13 @@
-import { useStore } from "@nanostores/react";
-import { carouselStore } from "../store/carousel.store";
+import Contact from "./Contact";
+import FAQ from "./FAQ";
+import MaputoMap from "./MaputoMap";
 
 export default function About() {
-  const { counter } = useStore(carouselStore);
   return (
     <>
-      <p>about : {counter}
-      
-      Fifth page : Contact / Map / FAQ (Frequently Asked Question).
-
-Email : contact@existentia.com</p>
+    <Contact />
+    <MaputoMap />
+    <FAQ />
     </>
   );
 }

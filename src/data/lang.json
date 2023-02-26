@@ -363,6 +363,44 @@
       "pr": "/src/image/nos-packages.webp"
     }
   },
+  "contact": {
+    "title": {
+      "fr": "nous contacter",
+      "en": "[en]nous contacter",
+      "pr": "[pr]nous contacter"
+    },
+    "name": {
+      "fr": "Nom",
+      "en": "[en]Nom",
+      "pr": "[pr]Nom"
+    },
+    "phone": {
+      "fr": "Téléphone",
+      "en": "[en]Téléphone",
+      "pr": "[pr]Téléphone"
+    },
+    "email": {
+      "fr": "E-mail",
+      "en": "[en]E-mail",
+      "pr": "[pr]E-mail"
+    },
+    "subject": {
+      "fr": "Objet",
+      "en": "[en]Objet",
+      "pr": "[pr]Objet"
+    },    
+    "ourEmail": {
+      "fr": "mail : contact@existentia.com",
+      "en": "[en]mail : contact@existentia.com",
+      "pr": "[pr]mail : contact@existentia.com"
+    },
+      "message": {
+        "fr": "message",
+        "en": "[en]message",
+        "pr": "[pr]message"
+      }
+
+  },
   "102": [
     "service organisation de voyage",
     "[uk]Organisation de voyage",
