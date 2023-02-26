@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { AppTheme } from "./App.style";
 
-export const ServicesContainer = styled.div`
+export const PackageContainer = styled.div`
   display: flex;
   flex-direction: column;
   background-color: ${AppTheme.mainColor.backGround};
@@ -13,7 +13,7 @@ export const ServicesContainer = styled.div`
   }
 `;
 
-export const CServices = styled.div`
+export const CPackage = styled.div`
   display: flex;
   flex-direction: column;
   padding: 10px 10px;
@@ -33,7 +33,7 @@ export const Title = styled.div`
   border-radius: 10px 10px 0px 0px;
   border-bottom: 1px solid white;
 `;
-export const Prelude = styled.div`
+export const Description = styled.div`
   background-color: ${AppTheme.mainColor.backGround};
   color: ${AppTheme.mainColor.forground};
   font-family: ${AppTheme.font.regular};
@@ -53,12 +53,12 @@ export const Image = styled.div`
     border-radius: 10px;
   }
 `;
-export const Epilog = styled.div`
+export const Price = styled.div`
   background-color: ${AppTheme.mainColor.backGround};
   color: ${AppTheme.mainColor.forground};
   font-family: ${AppTheme.font.regular};
   font-size: 1rem;
   padding: 20px;
-  text-align: justify;
+  text-align: center;
   border-radius: 0px 0px 10px 10px;
 `;

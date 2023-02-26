@@ -21,7 +21,7 @@ export type JsonService = {
   link: string;
 };
 
-export type TroisLang={
+export type ThreeLang={
   en: string ;
   pr: string ;
   fr: string ;
@@ -30,10 +30,18 @@ export type TroisLang={
 
 
 export type TService = {
-  title : TroisLang;
-  prelude :TroisLang;
-  epilog : TroisLang;
-  image : TroisLang;
-  alt :TroisLang;
+  title : ThreeLang;
+  prelude :ThreeLang;
+  epilog : ThreeLang;
+  image : ThreeLang;
+  alt :ThreeLang;
+}
+
+export type TPackage = {
+  title : ThreeLang;
+  description :ThreeLang;
+  price : ThreeLang;
+  image : ThreeLang;
+  alt :ThreeLang;
  
 }

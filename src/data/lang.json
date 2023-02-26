@@ -84,147 +84,228 @@
       "url": "/src/image/maputo3.jpg"
     }
   ],
+  "packages": [
+    {
+      "title": {
+        "fr": "Pack Serenity",
+        "en": "[en]Pack Serenity",
+        "pr": "[pr]Pack Serendescription"
+      },
+      "description": {
+        "fr": " description Pack Serenity 6/7 – 7h/21h",
+        "en": "[en] description Pack Serenity",
+        "pr": "[pr] description Pack Sereniprice"
+      },
+      "price": {
+        "fr": "2700 €",
+        "en": "$2800",
+        "pr": "180 000 MT"
+      },
+      "alt": {
+        "fr": "Image représentant description Pack Serenity",
+        "en": "[en]Image représentant description Pack Serenity",
+        "pr": "[pr]Image représen{tant description Pack Serenity"
+      },
+      "image": {
+        "fr": "/src/image/package-serenity.jpg",
+        "en": "/src/image/package-serenity.jpg",
+        "pr": "/src/image/package-serenity.jpg"
+      }
+    },
 
+    {
+      "title": {
+        "fr": "Pack Elite",
+        "en": "[en]Pack Elite",
+        "pr": "[pr]Pack Elite"
+      },
+      "description": {
+        "fr": " description Pack Elite 7/7 - 7h/21h",
+        "en": "[en] description Pack Elite 7/7 - 7h/21h",
+        "pr": "[pr] ddescription Pack Elite 7/7 - 7h/21h"
+      },
+      "price": {
+        "fr": "3700 €",
+        "en": "$4000",
+        "pr": "250 000 MT"
+      },
+      "alt": {
+        "fr": "Image représentant description Pack Elite",
+        "en": "[en]Image représentant description Pack Elite",
+        "pr": "[pr]Image représen{tant description Pack Elite"
+      },
+      "image": {
+        "fr": "/src/image/package-elite.webp",
+        "en": "/src/image/package-elite.webp",
+        "pr": "/src/image/package-elite.webp"
+      }
+    },
+    {
+      "title": {
+        "fr": "Pack Experience",
+        "en": "[en]Pack Experience",
+        "pr": "[pr]Pack Serendescription"
+      },
+      "description": {
+        "fr": " description Pack Experience 6/7 – 7h/21h",
+        "en": "[en] description Pack Experience",
+        "pr": "[pr] description Pack Sereniprice"
+      },
+      "price": {
+        "fr": "à définir €",
+        "en": "To plan",
+        "pr": "[pr] To plan"
+      },
+      "alt": {
+        "fr": "Image représentant description Pack Experience",
+        "en": "[en]Image représentant description Pack Experience",
+        "pr": "[pr]Image représen{tant description Pack Experience"
+      },
+      "image": {
+        "fr": "/src/image/package-experience.jpg",
+        "en": "/src/image/package-experience.jpg",
+        "pr": "/src/image/package-experience.jpg"
+      }
+    }
+  ],
 
   "services": [
     {
       "title": {
         "fr": "Home services",
         "en": "[en]Home services",
-  "pr": "[pr]Home services"
+        "pr": "[pr]Home services"
       },
-      "prelude":{
+      "prelude": {
         "fr": "prelude description Home services",
         "en": "[en]prelude description Home services",
         "pr": "[pr]pre{lude description Home services"
       },
-      "epilog":{
+      "epilog": {
         "fr": "Epilog description Home services",
         "en": "[en]Epilog description Home services",
         "pr": "[pr]Epi{log  description Home services"
       },
-      "alt":{
+      "alt": {
         "fr": "Image représentant description Home services",
         "en": "[en]Image représentant description Home services",
         "pr": "[pr]Image représen{tant description Home services"
       },
-      "image":{
+      "image": {
         "fr": "/src/image/home-services.jpg",
         "en": "/src/image/home-services.jpg",
         "pr": "/src/image/home-services.jpg"
-      
-    
-  }},
-   
+      }
+    },
+
     {
-      "title":{
+      "title": {
         "fr": "Familly",
         "en": "[en]Familly{",
         "pr": "[pr]Familly"
       },
-      "prelude":{
+      "prelude": {
         "fr": "prelude description Familly",
         "en": "[en]prelude description Familly",
         "pr": "[{pr]prelude description Familly"
       },
-      "epilog":{
+      "epilog": {
         "fr": "Epilog description Familly",
         "en": "[en]Epilog description Familly",
         "pr": "[{pr]Epilog  description Familly"
       },
-      "alt":{
+      "alt": {
         "fr": "Image représentant description Familly",
         "en": "[en]Image représentant description Familly",
         "pr": "[pr]Image re{présentant description Familly"
       },
-      "image":{
+      "image": {
         "fr": "/src/image/familly-services.jpg",
         "en": "/src/image/familly-services.jpg",
         "pr": "/{src/image/familly-services.jpg"
-      
-    }},
+      }
+    },
     {
-      "title":{
+      "title": {
         "fr": "Mobility and Car",
         "en": "[en]Mobility and Car",
         "pr": "[pr]Mobility and Car"
       },
-      "prelude":{
+      "prelude": {
         "fr": "prelude description Mobility and Car",
         "en": "[en]prelude description Mobility and Car",
         "pr": "[pr]prelud{e description Mobility and Car"
       },
-      "epilog":{
+      "epilog": {
         "fr": "Epilog description Mobility and Car",
         "en": "[en]Epilog description Mobility and Car",
         "pr": "[pr]Epilog{  description Mobility and Car"
       },
-      "alt":{
+      "alt": {
         "fr": "Image représentant description Mobility and Car",
         "en": "[en]Image représentant description Mobility and Car",
         "pr": "[pr]Image représentan{t description Mobility and Car"
       },
-      "image":{
+      "image": {
         "fr": "/src/image/mobility-and-car-services.jpg",
         "en": "/src/image/mobility-and-car-services.jpg",
         "pr": "/{src/image/mobility-and-car-services.jpg"
-      
-    }},
-       {
-      "title":{
+      }
+    },
+    {
+      "title": {
         "fr": "In the country",
         "en": "[en]In the country",
         "pr": "[pr]In the country"
       },
-      "prelude":{
+      "prelude": {
         "fr": "prelude description In the country",
         "en": "[en]prelude description In the country",
         "pr": "[pr]prel{ude description In the country"
       },
-      "epilog":{
+      "epilog": {
         "fr": "Epilog description In the country",
         "en": "[en]Epilog description In the country",
         "pr": "[pr]Epil{og  description In the country"
       },
-      "alt":{
+      "alt": {
         "fr": "Image représentant description In the country",
         "en": "[en]Image représentant description In the country",
         "pr": "[pr]Image représent{ant description In the country"
       },
-      "image":{
+      "image": {
         "fr": "/src/image/in-the-country-services.jpg",
         "en": "/src/image/in-the-country-services.jpg",
         "pr": "/src/image/in-the-country-services.jpg"
-     
-       }},
+      }
+    },
     {
-      "title":{
+      "title": {
         "fr": "Leisures",
         "en": "[en]Leisures",
         "pr": "[pr]Leisures"
       },
-      "prelude":{
+      "prelude": {
         "fr": "prelude description Leisures",
         "en": "[en]prelude description Leisures",
         "pr": "[p{r]prelude description Leisures"
       },
-      "epilog":{
+      "epilog": {
         "fr": "Epilog description Leisures",
         "en": "[en]Epilog description Leisures",
         "pr": "[p{r]Epilog  description Leisures"
       },
-      "alt":{
+      "alt": {
         "fr": "Image représentant description Leisures",
         "en": "[en]Image représentant description Leisures",
         "pr": "[pr]Image rep{résentant description Leisures"
       },
-      "image":{
+      "image": {
         "fr": "/src/image/leisures-services.jpg",
         "en": "/src/image/leisures-services.jpg",
         "pr": "/src/image/leisures-services.jpg"
       }
     }
-
   ],
 
   "infoService": {

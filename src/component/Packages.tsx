@@ -1,13 +1,32 @@
-export default function Packages() {
+import { CPackage, Description, Image, PackageContainer,  Price, Title } from "../style/Package.style";
+import { Lang, TPackage,  } from "../type/App.type";
+
+import jsonData from "./../data/lang.json";
+export const myDataLang: any = jsonData;
+
+// const { lang } = useStore(headerStore);
+const lang: Lang = "fr";
+
+export default function Package() {
+  const packageList = myDataLang["packages"];
+  console.log(packageList)
   return (
     <>
-      <p>: Packages :
-
-Pack Serenity : 6/7 – 7h/21h – 180 000 MT
-
-Pack Elite : 7/7 - 7h/21h – 250 000 MT
-
-Pack Experience : To plan</p>
+      <PackageContainer>
+        {packageList.map((item : TPackage, index : number) => (
+          <CPackage key={index}>
+            <Title>{item["title"][lang]}</Title>
+            <Description>{item["description"][lang]}</Description>
+            <Image>
+              <img
+                src={item["image"][lang]}
+                alt={item["alt"][lang]}
+              />
+            </Image>
+            <Price>{item["price"][lang]}</Price>
+          </CPackage>
+        ))}
+      </PackageContainer>
     </>
   );
 }
