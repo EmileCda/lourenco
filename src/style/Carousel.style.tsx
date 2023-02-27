@@ -27,4 +27,9 @@ export const CarouselContainer = styled.div`
     max-width: 98vw;
   }
   transition: all 1s;
+  li{
+
+    list-style-type: none;
+
+  }
 `;

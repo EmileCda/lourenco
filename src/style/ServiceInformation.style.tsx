@@ -5,7 +5,7 @@ export const ServiceInformationContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 0px 10px;
-  background-color: ${AppTheme.minorColor.backGround};
+  background-color: ${AppTheme.mainColor.backGround};
   
   min-width: 100vw;
   a {
@@ -17,10 +17,12 @@ export const ServiceInformationContainer = styled.div`
 `;
 
 export const Title = styled.div`
+margin: 10px;
   background-color: ${AppTheme.mainColor.backGround};
   color: ${AppTheme.mainColor.forground};
   min-width: 100vw;
-  border: 1px dashed red;
+  border-bottom: 1px solid  ${AppTheme.mainColor.forground}; 
+  border-top: 1px solid    ${AppTheme.mainColor.forground}; 
     font-family: ${AppTheme.font.extra};
     font-weight: 300;
     font-size: 2rem;

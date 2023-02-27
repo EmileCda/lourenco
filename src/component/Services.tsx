@@ -1,3 +1,5 @@
+import { useStore } from "@nanostores/react";
+import { headerStore } from "../store/header.store";
 import {
   CServices,
   Epilog,
@@ -11,11 +13,10 @@ import { Lang, TService } from "../type/App.type";
 import jsonData from "./../data/lang.json";
 export const myDataLang: any = jsonData;
 
-// const { lang } = useStore(headerStore);
-const lang: Lang = "fr";
 
 export default function Services() {
-  const servicesList = myDataLang["services"];
+const { lang } = useStore(headerStore);
+const servicesList = myDataLang["services"];
   return (
     <>
       <ServicesContainer>

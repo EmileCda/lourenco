@@ -20,8 +20,9 @@ export const PackageInformationContainer = styled.div`
 export const Title = styled.div`
   background-color: ${AppTheme.mainColor.backGround};
   color: ${AppTheme.mainColor.forground};
+  border-top: 1px solid ${AppTheme.mainColor.forground};
+  border-bottom: 1px solid ${AppTheme.mainColor.forground};
   min-width: 100vw;
-  border: 1px dashed red;
     font-family: ${AppTheme.font.extra};
     font-weight: 300;
     font-size: 2rem;

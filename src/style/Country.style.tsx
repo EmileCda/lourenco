@@ -5,6 +5,7 @@ export const ContactContainer = styled.div`
   display: flex;
   flex-direction: column;
   background-color: ${AppTheme.mainColor.backGround};
+  min-width: 100vw;
 `;
 
 export const Description = styled.div`
@@ -38,7 +39,15 @@ export const Title = styled.div`
   border-top: 1px solid ${AppTheme.minorColor.forground};
 `;
 
+export const GastronomyContainer = styled.div`
+  li{
+    list-style-type: none;
+  }
+
+`;
+
 export const Img = styled.img`
   min-width: auto;
-  max-width: 100vw;
+  max-width: 90vw;
+  /* margin: 10px; */
 `;

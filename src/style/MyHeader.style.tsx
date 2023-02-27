@@ -15,7 +15,6 @@ export const HeaderContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 1px dashed red;
   min-width: 100vw;
 `;
 
@@ -39,7 +38,6 @@ export const Logo = styled.div`
   color: ${AppTheme.mainColor.forground};
   font-size: 4rem;
   transform: rotate(-10deg);
-
 `;
 export const LanguageBarContainer = styled.div`
   display: flex;
@@ -53,12 +51,11 @@ export const LanguageBarContainer = styled.div`
   }
 `;
 export const NavBar = styled.div`
-  
   font-family: ${AppTheme.font.regular};
-  font-size: .8rem;
-  /* display: none; */
-  display : ${props => (props.isVisible ? `none` : "flex")};
-  
+  font-size: 0.8rem;
+
+  display: ${(props) => (props.isVisible ? `none` : "flex")};
+
   li a {
     cursor: pointer;
     margin: 0px 4px;
@@ -69,7 +66,7 @@ export const NavBar = styled.div`
     color: ${AppTheme.minorColor.forground};
     font-weight: bold;
   }
-  
+
   ul {
     display: flex;
     flex-direction: row;
@@ -77,11 +74,43 @@ export const NavBar = styled.div`
     padding: 0;
   }
 `;
+export const NavBarBurger = styled.div`
+  font-family: ${AppTheme.font.regular};
+  background-color: ${AppTheme.mainColor.mid};
+  font-size: 1.5rem;
+  position: fixed;
+  right: 0px;
+  top : 130px;
+  display: flex;
+  border-radius: 10px 0px 0px 10px ;
+  display: ${(props) => (props.isVisible ? "flex" : `none`)};
+  transform: ${(props) => (props.isClicked ?  "translateX(0%)" :  "translateX(100%)")};
+  transition: all 0.5s ease-out;
+
+  li a {
+    cursor: pointer;
+    margin: 0px 4px;
+    text-decoration: none;
+    color: ${AppTheme.mainColor.forground};
+  }
+  li a:hover {
+    color: ${AppTheme.minorColor.forground};
+    font-weight: bold;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+  }
+`;
+
 export const BurgerMenu = styled.div`
   color: ${AppTheme.mainColor.forground};
   font-size: 2rem;
   cursor: pointer;
-  display : ${props => (props.isVisible ?  "flex" : `none` )};
+  display: ${(props) => (props.isVisible ? "flex" : `none`)};
 `;
 
 export const Img = styled.img`

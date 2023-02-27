@@ -10,10 +10,11 @@ import {
   LanguageBarContainer,
   Logo,
   NavBar,
+  NavBarBurger,
 } from "../style/MyHeader.style";
 import jsonData from "./../data/lang.json";
 import { useStore } from "@nanostores/react";
-import { headerStore, setLang } from "../store/header.store";
+import { headerStore, setLang, toggleIsVisible } from "../store/header.store";
 import { Link } from "react-router-dom";
 import { JsonLink, Lang, LangDesc } from "../type/App.type";
 export const myDataLang: any = jsonData;
@@ -61,7 +62,7 @@ export function LanguageBar() {
 
 export default function MyHeader() {
   const myNavBar = myDataLang["navBar"];
-  const { lang, isBurgerMennuVisible } = useStore(headerStore);
+  const { lang, isBurgerMennuVisible,isVisible } = useStore(headerStore);
   return (
     <>
       <HeaderContainer>
@@ -81,9 +82,20 @@ export default function MyHeader() {
               ))}
             </ul>
           </NavBar>
-          <BurgerMenu isVisible={isBurgerMennuVisible}>
+          <BurgerMenu isVisible={isBurgerMennuVisible} onClick={toggleIsVisible}>
             <i className="fa-solid fa-bars"></i>
           </BurgerMenu>
+          <NavBarBurger isVisible={isBurgerMennuVisible} isClicked={isVisible}>
+            <ul>
+              {myNavBar.map((item: JsonLink, index: number) => (
+                <li key={index}>
+                  <Link  to={item.link} onClick={toggleIsVisible}>
+                    {item[lang]}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </NavBarBurger>
         </HeaderLower>
       </HeaderContainer>
     </>

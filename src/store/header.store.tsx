@@ -10,11 +10,13 @@ import { Lang } from "../type/App.type";
 export type HeaderStore = {
   lang: Lang;
   isBurgerMennuVisible : boolean;
+  isVisible : boolean,
 };
 
 export const headerStore = map<HeaderStore>({
   lang: "fr",
   isBurgerMennuVisible : false,
+  isVisible : false,
 });
 
 export const setLang = action(
@@ -25,12 +27,24 @@ export const setLang = action(
   }
 )
   
-  export const toggleIsBurgerMennuVisible = action(
+  export const setIsBurgerMennuVisible = action(
     headerStore,
-    "toggleIsBurgerMennuVisible",
-    (store) => {
+    "setIsBurgerMennuVisible",
+    (store,value : boolean) => {
       const {isBurgerMennuVisible} =store.get();
-      store.setKey("isBurgerMennuVisible",   !isBurgerMennuVisible );
+      store.setKey("isBurgerMennuVisible",   value );
       
     }
+  );
+
+  export const toggleIsVisible= action(
+    headerStore,
+    "toggleIsVisible",
+    (store) => {
+      const {isVisible} =store.get();
+      store.setKey("isVisible",   !isVisible );
+      console.log("itit");
+      console.log(isVisible);
+        
+    },
   );

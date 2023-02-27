@@ -121,6 +121,8 @@ The outcome will determinate the deadline
 
 ## ressources
 
+![taille-ecran-responsive](./src/image/taille-ecran-responsive.png)
+
 ### sites example
 
 [jhonpaul](www.jhonpaul.com) dead link

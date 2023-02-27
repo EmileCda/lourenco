@@ -1,16 +1,18 @@
 import { useStore } from "@nanostores/react";
-import { Description, Img, Title } from "../style/Country.style";
+import { Description, GastronomyContainer, Img, Title } from "../style/Country.style";
 import { Lang, TSubject } from "../type/App.type";
 import { headerStore } from "../store/header.store";
 
 import jsonData from "./../data/lang.json";
 export const myDataLang: any = jsonData;
 // const { lang } = useStore(headerStore);
-const lang = "fr";
+
+// const lang = "fr";
 
 // -------------------------------------------------------------
 export function DisplayInformation(subject: TSubject) {
-  return (
+const { lang } = useStore(headerStore);
+return (
     <>
       <Title>{subject.title[lang]}</Title>
       <Description>{subject.prelude[lang]}</Description>
@@ -32,13 +34,21 @@ export function Tourisme() {
 // -------------------------------------------------------------
 export function Gastronomy() {
   const dataGastronomy = myDataLang["gastronomy"];
+  const { lang } = useStore(headerStore);
 
   return (
     <>
+      <GastronomyContainer>
       <Title>{dataGastronomy.chapterTitle[lang]}</Title>
+      <ul>
       {dataGastronomy.dish.map((item: TSubject, index: number) =>
-        DisplayInformation(item)
+        <li key={index}>
+        {DisplayInformation(item)}
+        </li>
       )}
+
+      </ul>
+      </GastronomyContainer>
     </>
   );
 }

@@ -28,6 +28,12 @@
 
   "navBar": [
     {
+      "fr": "Test",
+      "en": "[uk] Test",
+      "pr": "[PR] Test",
+      "link": "./test"
+    },
+    {
       "fr": "Accueil",
       "en": "[uk] Home",
       "pr": "[PR] Accueil",
@@ -381,11 +387,11 @@
   "country": {
     "prelude": {
       "fr": "Le Mozambique, en forme longue la république du Mozambique, en portugais : Moçambique et República de Moçambique, est un État situé sur la côte orientale du continent africain. Il est entouré par l'Afrique du Sud, l'Eswatini, Madagascar, les Comores, le Zimbabwe, la Zambie, le Malawi et la Tanzanie.",
-      "en": "[en]Le Mozambique, en forme longue la république du Mozambique, en portugais : Moçambique et República de Moçambique, est un État situé sur la côte orientale du continent africain. Il est entouré par l'Afrique du Sud, l'Eswatini, Madagascar, les Comores, le Zimbabwe, la Zambie, le Malawi et la Tanzanie.",
-      "pr": "[pr]Le Mozambique, en forme longue la république du Mozambique, en portugais : Moçambique et República de Moçambique, est un État situé sur la côte orientale du continent africain. Il est entouré par l'Afrique du Sud, l'Eswatini, Madagascar, les Comores, le Zimbabwe, la Zambie, le Malawi et la Tanzanie."
+      "en": "[en] Le Mozambique, en forme longue la république du Mozambique, en portugais : Moçambique et República de Moçambique, est un État situé sur la côte orientale du continent africain. Il est entouré par l'Afrique du Sud, l'Eswatini, Madagascar, les Comores, le Zimbabwe, la Zambie, le Malawi et la Tanzanie.",
+      "pr": "[pr] Le Mozambique, en forme longue la république du Mozambique, en portugais : Moçambique et República de Moçambique, est un État situé sur la côte orientale du continent africain. Il est entouré par l'Afrique du Sud, l'Eswatini, Madagascar, les Comores, le Zimbabwe, la Zambie, le Malawi et la Tanzanie."
     },
     "title": {
-      "fr": "República de Moçambique",
+      "fr": "République du Mozambique",
       "en": "[en]República de Moçambique",
       "pr": "[pr]República de Moçambique"
     },

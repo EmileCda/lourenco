@@ -3,6 +3,8 @@
  *
  *
  */
+import { useStore } from "@nanostores/react";
+import { headerStore } from "../store/header.store";
 import {
   ContactContainer,
   InputContainer,
@@ -31,6 +33,8 @@ export function MyInput({ label, myValue }: inputProps) {
 
 export default function Contact() {
   const labelContact = myDataLang["contact"];
+  const { lang } = useStore(headerStore);
+
   return (
     <>
       <ContactContainer>

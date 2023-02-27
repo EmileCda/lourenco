@@ -1,15 +1,15 @@
+import { useStore } from "@nanostores/react";
+import { headerStore } from "../store/header.store";
 import { CPackage, Description, Image, PackageContainer,  Price, Title } from "../style/Package.style";
 import { Lang, TPackage,  } from "../type/App.type";
 
 import jsonData from "./../data/lang.json";
 export const myDataLang: any = jsonData;
 
-// const { lang } = useStore(headerStore);
-const lang: Lang = "fr";
 
 export default function Package() {
   const packageList = myDataLang["packages"];
-  console.log(packageList)
+  const { lang } = useStore(headerStore);
   return (
     <>
       <PackageContainer>
