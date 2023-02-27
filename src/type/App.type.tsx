@@ -14,6 +14,16 @@ export type JsonLink = {
   link: string;
 };
 
+
+export type LangDesc = {
+  id: Lang;
+  name:string;
+  desc: string;
+  url: string;
+};
+
+
+
 export type JsonService = {
   en: string[] ;
   pr: string[] ;
@@ -41,6 +51,16 @@ export type TPackage = {
   title : ThreeLang;
   description :ThreeLang;
   price : ThreeLang;
+  image : ThreeLang;
+  alt :ThreeLang;
+ 
+}
+
+
+export type TSubject = {
+  title : ThreeLang;
+  prelude :ThreeLang;
+  epilog : ThreeLang;
   image : ThreeLang;
   alt :ThreeLang;
  

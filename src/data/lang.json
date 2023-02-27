@@ -1,11 +1,25 @@
 {
-  "lang": ["fr", "en", "pr"],
-  "langDesc": {
-    "fr": "Langue Française",
-    "en": "English speaking",
-    "pr": "língua portuguesa"
-  },
+  "language": [
+    {
+      "id": "fr",
+      "name": "Francais",
+      "description": "langue Francaise",
+      "urlFlag": "/src/image/fr.png"
+    },
 
+    {
+      "id": "pr",
+      "name": "Portugues",
+      "description": "língua portuguesa",
+      "urlFlag": "/src/image/pr.png"
+    },
+    {
+      "id": "en",
+      "name": "English",
+      "description": "English speaking",
+      "urlFlag": "/src/image/en.png"
+    }
+  ],
   "name": {
     "fr": "Existentia",
     "en": "Existentia",
@@ -177,9 +191,9 @@
         "pr": "[pr]Home services"
       },
       "prelude": {
-        "fr": "prelude description Home services",
-        "en": "[en]prelude description Home services",
-        "pr": "[pr]pre{lude description Home services"
+        "fr": "Le pays se divise en deux parties distinctes : le sud, avec Maputo, capitale en pleine effervescence, concentre l'essentiel des richesses du Mozambique quand le nord, largement sous-développé, est une région beaucoup plus sauvage à 1000 lieues du tourisme de masse et représente le terrain de jeu idéal pour les voyageurs en quête d'aventure. ",
+        "en": "[en]Le pays se divise en deux parties distinctes : le sud, avec Maputo, capitale en pleine effervescence, concentre l'essentiel des richesses du Mozambique quand le nord, largement sous-développé, est une région beaucoup plus sauvage à 1000 lieues du tourisme de masse et représente le terrain de jeu idéal pour les voyageurs en quête d'aventure. ",
+        "pr": "[pr]Le pays se divise en deux parties distinctes : le sud, avec Maputo, capitale en pleine effervescence, concentre l'essentiel des richesses du Mozambique quand le nord, largement sous-développé, est une région beaucoup plus sauvage à 1000 lieues du tourisme de masse et représente le terrain de jeu idéal pour les voyageurs en quête d'aventure. "
       },
       "epilog": {
         "fr": "Epilog description Home services",
@@ -363,6 +377,207 @@
       "pr": "/src/image/nos-packages.webp"
     }
   },
+
+  "country": {
+    "prelude": {
+      "fr": "Le Mozambique, en forme longue la république du Mozambique, en portugais : Moçambique et República de Moçambique, est un État situé sur la côte orientale du continent africain. Il est entouré par l'Afrique du Sud, l'Eswatini, Madagascar, les Comores, le Zimbabwe, la Zambie, le Malawi et la Tanzanie.",
+      "en": "[en]Le Mozambique, en forme longue la république du Mozambique, en portugais : Moçambique et República de Moçambique, est un État situé sur la côte orientale du continent africain. Il est entouré par l'Afrique du Sud, l'Eswatini, Madagascar, les Comores, le Zimbabwe, la Zambie, le Malawi et la Tanzanie.",
+      "pr": "[pr]Le Mozambique, en forme longue la république du Mozambique, en portugais : Moçambique et República de Moçambique, est un État situé sur la côte orientale du continent africain. Il est entouré par l'Afrique du Sud, l'Eswatini, Madagascar, les Comores, le Zimbabwe, la Zambie, le Malawi et la Tanzanie."
+    },
+    "title": {
+      "fr": "República de Moçambique",
+      "en": "[en]República de Moçambique",
+      "pr": "[pr]República de Moçambique"
+    },
+    "epilog": {
+      "fr": "C'est une ancienne colonie portugaise, le deuxième pays lusophone d'Afrique, derrière l'Angola, par sa population et par sa superficie. Le pays est membre de la Communauté des pays de langue portugaise (CPLP), de l'Organisation internationale de la francophonie (OIF), du Commonwealth et de l'Organisation de la coopération islamique. ",
+      "en": "[en]C'est une ancienne colonie portugaise, le deuxième pays lusophone d'Afrique, derrière l'Angola, par sa population et par sa superficie. Le pays est membre de la Communauté des pays de langue portugaise (CPLP), de l'Organisation internationale de la francophonie (OIF), du Commonwealth et de l'Organisation de la coopération islamique. ",
+      "pr": "[pr]C'est une ancienne colonie portugaise, le deuxième pays lusophone d'Afrique, derrière l'Angola, par sa population et par sa superficie. Le pays est membre de la Communauté des pays de langue portugaise (CPLP), de l'Organisation internationale de la francophonie (OIF), du Commonwealth et de l'Organisation de la coopération islamique. "
+    },
+    "alt": {
+      "fr": "Image représentant généralité au mozambque",
+      "en": "[en]Image représentant généralité au mozambque",
+      "pr": "[pr]Image représentant généralitéau mozambque"
+    },
+    "image": {
+      "fr": "/src/image/country.jpg",
+      "en": "/src/image/country.jpg",
+      "pr": "/src/image/country.jpg"
+    }
+  },
+  "gastronomy": {
+    "chapterTitle": {
+      "fr": "Gastronomy",
+      "en": "[en] Gastronomy",
+      "pr": "[pr] Gastronomy"
+    },
+
+    "dish": [
+      {
+        "title": {
+          "fr": "La Xima",
+          "en": "[en] La Xima",
+          "pr": "[pr]La Xima"
+        },
+        "prelude": {
+          "fr": "plat traditionnel, c’est une purée faite à partir de farine de manioc et qui sert de pain pour accompagner les autres plats.",
+          "en": "[en] plat traditionnel, c’est une purée faite à partir de farine de manioc et qui sert de pain pour accompagner les autres plats.",
+          "pr": "[pr] plat traditionnel, c’est une purée faite à partir de farine de manioc et qui sert de pain pour accompagner les autres plats."
+        },
+        "epilog": {
+          "fr": "",
+          "en": "",
+          "pr": ""
+        },
+        "alt": {
+          "fr": "Image représentant le plat traditionel la-xima ",
+          "en": "[en] Image représentant le plat traditionel la-xima ",
+          "pr": "[pr] Image représentant le plat traditionel la-xima "
+        },
+        "image": {
+          "fr": "/src/image/la-xima.jpg",
+          "en": "/src/image/la-xima.jpg",
+          "pr": "/src/image/la-xima.jpg"
+        }
+      },
+      {
+        "title": {
+          "fr": "La Matapa",
+          "en": "[en]La Matapa",
+          "pr": "[pr]La Matapa"
+        },
+        "prelude": {
+          "fr": "à base de feuilles écrasées, de cacahuètes et de crevettes, c’est aussi une recette traditionnelle.",
+          "en": "[en]à base de feuilles écrasées, de cacahuètes et de crevettes, c’est aussi une recette traditionnelle.",
+          "pr": "[pr]à base de feuilles écrasées, de cacahuètes et de crevettes, c’est aussi une recette traditionnelle."
+        },
+        "epilog": {
+          "fr": "",
+          "en": "",
+          "pr": ""
+        },
+        "alt": {
+          "fr": "Image représentant le plat traditionel la-Matapa",
+          "en": "[en]Image représentant le plat traditionel la-Matapa",
+          "pr": "[pr]Image représentant le plat traditionel la-Matapa"
+        },
+        "image": {
+          "fr": "/src/image/matapa.jpg",
+          "en": "/src/image/matapa.jpg",
+          "pr": "/src/image/matapa.jpg"
+        }
+      },
+      {
+        "title": {
+          "fr": "Les Camaroes",
+          "en": "[en]Les Camaroes",
+          "pr": "[pr]Les Camaroes"
+        },
+        "prelude": {
+          "fr": "crevettes servies fendues en deux et grillées, très pimentées.",
+          "en": "[en]crevettes servies fendues en deux et grillées, très pimentées.",
+          "pr": "[pr]crevettes servies fendues en deux et grillées, très pimentées."
+        },
+        "epilog": {
+          "fr": "",
+          "en": "",
+          "pr": ""
+        },
+        "alt": {
+          "fr": "Image représentant description Badrias",
+          "en": "[en]Image représentant description Badrias",
+          "pr": "[pr]Image représen{tant description Badrias"
+        },
+        "image": {
+          "fr": "/src/image/camaroes.jpg",
+          "en": "/src/image/camaroes.jpg",
+          "pr": "/src/image/camaroes.jpg"
+        }
+      },
+      {
+        "title": {
+          "fr": "Le Poulet à la zambézienne ",
+          "en": "[en]Le Poulet à la zambézienne ",
+          "pr": "[pr]Le Poulet à la zambézienne "
+        },
+        "prelude": {
+          "fr": "il est mariné dans du citron, de l’ail et du piment, et arrosé d’eau de coco puis grillé.",
+          "en": "[en] il est mariné dans du citron, de l’ail et du piment, et arrosé d’eau de coco puis grillé.",
+          "pr": "[pr] il est mariné dans du citron, de l’ail et du piment, et arrosé d’eau de coco puis grillé."
+        },
+        "epilog": {
+          "fr": "",
+          "en": "",
+          "pr": ""
+        },
+        "alt": {
+          "fr": "Image représentant description Le Poulet à la zambézienne",
+          "en": "[en]Image représentant description Le Poulet à la zambézienne",
+          "pr": "[pr]Image représen{tant description Le Poulet à la zambézienne"
+        },
+        "image": {
+          "fr": "/src/image/poulet-zambezienne.jpg",
+          "en": "/src/image/poulet-zambezienne.jpg",
+          "pr": "/src/image/poulet-zambezienne.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "title": {
+      "fr": "Ressource",
+      "en": "[en]Ressource",
+      "pr": "[pr]Ressource"
+    },
+    "prelude": {
+      "fr": "Le Mozambique est considéré comme l’exemple d’une reconstruction réussie. Cependant, le pays doit faire face aux carences d’une économie conçue, depuis la colonisation portugaise, pour satisfaire d’abord les besoins des pays voisins, notamment l’Afrique du Sud. L’arrivée de nouveaux partenaires (Australie, Brésil, Inde, etc.) pourrait changer la donne dans les secteurs-clés de l’énergie, des infrastructures et des mines.",
+      "en": "[en] Le Mozambique est considéré comme l’exemple d’une reconstruction réussie. Cependant, le pays doit faire face aux carences d’une économie conçue, depuis la colonisation portugaise, pour satisfaire d’abord les besoins des pays voisins, notamment l’Afrique du Sud. L’arrivée de nouveaux partenaires (Australie, Brésil, Inde, etc.) pourrait changer la donne dans les secteurs-clés de l’énergie, des infrastructures et des mines.",
+      "pr": "[pr] Le Mozambique est considéré comme l’exemple d’une reconstruction réussie. Cependant, le pays doit faire face aux carences d’une économie conçue, depuis la colonisation portugaise, pour satisfaire d’abord les besoins des pays voisins, notamment l’Afrique du Sud. L’arrivée de nouveaux partenaires (Australie, Brésil, Inde, etc.) pourrait changer la donne dans les secteurs-clés de l’énergie, des infrastructures et des mines."
+    },
+    "epilog": {
+      "fr": "Le Mozambique est l’exemple d’une reconstruction postconflit réussie. Dans leur rapport annuel 2009 sur l’Afrique, la Banque africaine de développement (BAD) et l’Organisation de coopération et de développement économiques (OCDE) soulignent ainsi la « stabilité macroéconomique et politique » du pays, une « impressionnante croissance moyenne de 8 %, entre 2000 et 2006 ». En outre, cet Etat consacre une part élevée de son budget à l’éducation (22 %). Toutefois, avec un revenu moyen par tête de 230 euros, le Mozambique demeure parmi les pays les plus pauvres du monde, avec des inégalités croissantes entre les régions, dont certaines sont de surcroît fréquemment frappées par des catastrophes naturelles — inondations et vagues de sécheresse. Maputo est ainsi un des premiers bénéficiaires de l’aide publique au développement en Afrique subsaharienne.",
+      "en": "[en]Le Mozambique est l’exemple d’une reconstruction postconflit réussie. Dans leur rapport annuel 2009 sur l’Afrique, la Banque africaine de développement (BAD) et l’Organisation de coopération et de développement économiques (OCDE) soulignent ainsi la « stabilité macroéconomique et politique » du pays, une « impressionnante croissance moyenne de 8 %, entre 2000 et 2006 ». En outre, cet Etat consacre une part élevée de son budget à l’éducation (22 %). Toutefois, avec un revenu moyen par tête de 230 euros, le Mozambique demeure parmi les pays les plus pauvres du monde, avec des inégalités croissantes entre les régions, dont certaines sont de surcroît fréquemment frappées par des catastrophes naturelles — inondations et vagues de sécheresse. Maputo est ainsi un des premiers bénéficiaires de l’aide publique au développement en Afrique subsaharienne.",
+      "pr": "[pr]Le Mozambique est l’exemple d’une reconstruction postconflit réussie. Dans leur rapport annuel 2009 sur l’Afrique, la Banque africaine de développement (BAD) et l’Organisation de coopération et de développement économiques (OCDE) soulignent ainsi la « stabilité macroéconomique et politique » du pays, une « impressionnante croissance moyenne de 8 %, entre 2000 et 2006 ». En outre, cet Etat consacre une part élevée de son budget à l’éducation (22 %). Toutefois, avec un revenu moyen par tête de 230 euros, le Mozambique demeure parmi les pays les plus pauvres du monde, avec des inégalités croissantes entre les régions, dont certaines sont de surcroît fréquemment frappées par des catastrophes naturelles — inondations et vagues de sécheresse. Maputo est ainsi un des premiers bénéficiaires de l’aide publique au développement en Afrique subsaharienne."
+    },
+    "alt": {
+      "fr": "Image représentant description les ressource naturel mozambique",
+      "en": "[en]Image représentant description les ressource naturel mozambique",
+      "pr": "[pr]Image représen{tant description les ressource naturel mozambique"
+    },
+    "image": {
+      "fr": "/src/image/mozambique-ressource.png",
+      "en": "/src/image/mozambique-ressource.png",
+      "pr": "/src/image/mozambique-ressource.png"
+    }
+  },
+  "Tourisme": {
+    "title": {
+      "fr": "Tourisme au Mozambique",
+      "en": "[en]Tourisme au Mozambique",
+      "pr": "[pr]Tourisme au Mozambique"
+    },
+    "prelude": {
+      "fr": "Le pays se divise en deux parties distinctes : le sud, avec Maputo, capitale en pleine effervescence, concentre l'essentiel des richesses du Mozambique quand le nord, largement sous-développé, est une région beaucoup plus sauvage à 1000 lieues du tourisme de masse et représente le terrain de jeu idéal pour les voyageurs en quête d'aventure. ",
+      "en": "[en]Le pays se divise en deux parties distinctes : le sud, avec Maputo, capitale en pleine effervescence, concentre l'essentiel des richesses du Mozambique quand le nord, largement sous-développé, est une région beaucoup plus sauvage à 1000 lieues du tourisme de masse et représente le terrain de jeu idéal pour les voyageurs en quête d'aventure. ",
+      "pr": "[pr]Le pays se divise en deux parties distinctes : le sud, avec Maputo, capitale en pleine effervescence, concentre l'essentiel des richesses du Mozambique quand le nord, largement sous-développé, est une région beaucoup plus sauvage à 1000 lieues du tourisme de masse et représente le terrain de jeu idéal pour les voyageurs en quête d'aventure. "
+    },
+    "epilog": {
+      "fr": "Le Mozambique, situé sur la côte sud-africaine juste en face de Madagascar, demeure un territoire plutôt méconnu des touristes. Et pourtant, ses longues plages ombragées de cocotiers, son atmosphère mystérieuse et ses îles au caractère si spécial offrent un potentiel énorme pour ses visiteurs. Si la capitale du Mozambique, Maputo, et sa cathédrale, ses musées et sa maison Eiffel feront le bonheur des amateurs d'architecture, le parc national de Gorongosa, les réserves naturelles de Maputo et Niassa et le lac Malawi plairont aux amoureux de la nature.",
+      "en": "[en]Le Mozambique, situé sur la côte sud-africaine juste en face de Madagascar, demeure un territoire plutôt méconnu des touristes. Et pourtant, ses longues plages ombragées de cocotiers, son atmosphère mystérieuse et ses îles au caractère si spécial offrent un potentiel énorme pour ses visiteurs. Si la capitale du Mozambique, Maputo, et sa cathédrale, ses musées et sa maison Eiffel feront le bonheur des amateurs d'architecture, le parc national de Gorongosa, les réserves naturelles de Maputo et Niassa et le lac Malawi plairont aux amoureux de la nature.",
+      "pr": "[pr]Le Mozambique, situé sur la côte sud-africaine juste en face de Madagascar, demeure un territoire plutôt méconnu des touristes. Et pourtant, ses longues plages ombragées de cocotiers, son atmosphère mystérieuse et ses îles au caractère si spécial offrent un potentiel énorme pour ses visiteurs. Si la capitale du Mozambique, Maputo, et sa cathédrale, ses musées et sa maison Eiffel feront le bonheur des amateurs d'architecture, le parc national de Gorongosa, les réserves naturelles de Maputo et Niassa et le lac Malawi plairont aux amoureux de la nature."
+    },
+    "alt": {
+      "fr": "Image représentant description tourisme au mozambique",
+      "en": "[en]Image représentant description tourisme au mozambique",
+      "pr": "[pr]Image représen{tant description tourisme au mozambique"
+    },
+    "image": {
+      "fr": "/src/image/tourisme.jpg",
+      "en": "/src/image/tourisme.jpg",
+      "pr": "/src/image/tourisme.jpg"
+    }
+  },
+
   "contact": {
     "title": {
       "fr": "nous contacter",
@@ -388,201 +603,16 @@
       "fr": "Objet",
       "en": "[en]Objet",
       "pr": "[pr]Objet"
-    },    
-    "ourEmail": {
-      "fr": "mail : contact@existentia.com",
-      "en": "[en]mail : contact@existentia.com",
-      "pr": "[pr]mail : contact@existentia.com"
     },
-      "message": {
-        "fr": "message",
-        "en": "[en]message",
-        "pr": "[pr]message"
-      }
-
-  },
-  "102": [
-    "service organisation de voyage",
-    "[uk]Organisation de voyage",
-    "[PR]"
-  ],
-  "103": [
-    "Personnel de maison",
-    "[uk]Personnel de maison",
-    "[PR]Personnel de maison"
-  ],
-  "104": [
-    "Prise-de-rendez-vous",
-    "[uk]Prise-de-rendez-vous",
-    "[PR]Prise-de-rendez-vous"
-  ],
-  "105": [
-    "Restaurants-et-Nightlife",
-    "[uk]Restaurants-et-Nightlife",
-    "[PR]Restaurants-et-Nightlife"
-  ],
-  "106": [
-    "service de Service-de-livraison",
-    "[uk]service de Service-de-livraison",
-    "[PR]service de Service-de-livraison"
-  ],
-  "201": ["En savoir plus", "[uk]En savoir plus", "[PR]En savoir plus"],
-  "202": [
-    "Les équipes de Premium Conciergerie sont à votre service 24h heures sur 24 et 7 jours sur 7, pour vous faciliter la vie au quotidien. ",
-    "[uk]Les équipes de Premium Conciergerie sont à votre service 24h heures sur 24 et 7 jours sur 7, pour vous faciliter la vie au quotidien. ",
-    "[PR]Les équipes de Premium Conciergerie sont à votre service 24h heures sur 24 et 7 jours sur 7, pour vous faciliter la vie au quotidien. "
-  ],
-  "203": [
-    "explication personnel de maison",
-    "[uk]explication personnel de maison",
-    "[PR]explication personnel de maison"
-  ],
-  "204": [
-    "Prise-de-rendez-vous texte long ",
-    "[uk]Prise-de-rendez-vous texte long",
-    "[PR]Prise-de-rendez-vous texte long"
-  ],
-  "205": [
-    "Restaurants-et-Nightlife texte long ",
-    "[uk]Restaurants-et-Nightlife texte long",
-    "[PR]Restaurants-et-Nightlife texte long"
-  ],
-  "206": [
-    "sservice de Service-de-livraison texte long",
-    "[uk]sservice de Service-de-livraison texte long",
-    "[PR]sservice de Service-de-livraison texte long"
-  ],
-  "301": [
-    "Découvrez nos offres",
-    "[uk] Découvrez nos offres",
-    "[PR]Découvrez nos offres"
-  ],
-  "302": ["En savoir plus", "[uk] En savoir plus", "[PR]En savoir plus"],
-  "303": [
-    "Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Conciergerie sont valables pour le porteur ainsi que la personne de son choix.",
-    "[uk] Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Conciergerie sont valables pour le porteur ainsi que la personne de son choix.",
-    "[PR]Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Conciergerie sont valables pour le porteur ainsi que la personne de son choix."
-  ],
-  "infoPackTitle": [
-    "Découvrez nos offres",
-    "[uk] Découvrez nos offres",
-    "[PR] Découvrez nos offres"
-  ],
-  "infoPack": [
-    "Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Existentia sont valables pour le porteur ainsi que la personne de son choix",
-    "[uk] Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Existentia sont valables pour le porteur ainsi que la personne de son choix",
-    "[PR] Nous vous proposons 3 offres d’abonnement. Les cartes membres Premium Existentia sont valables pour le porteur ainsi que la personne de son choix"
-  ],
-  "pack0": ["Forfait Serenity", "[uk] Pack Serenity", "[PR] Pack Serenity"],
-  "pack1": ["Forfait Elite", "[uk] Pack Elite", "[PR] Pack Elite"],
-  "pack2": [
-    "Forfait Experience",
-    "[uk] Pack Experience",
-    "[PR] Pack Experience"
-  ],
-  "packDesc0": [
-    "description long Forfait Serenity Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[uk] description long Forfait Serenity Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[PR] description long Forfait Serenity Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
-  ],
-  "packDesc1": [
-    "description long Forfait Elite Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[uk] description long Forfait Elite Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[PR] description long Forfait Elite Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
-  ],
-  "packDesc2": [
-    "description long Forfait Experience Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[uk] description long Forfait Experience Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[PR] description long Forfait Experience Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
-  ],
-  "packPrice0": ["2600 €", "[uk] $2800", "[PR] 180 000 MT"],
-  "packPrice1": ["3600 €", "[uk] $3800", "[PR] 250 000 MT"],
-  "packPrice2": [" à définir €", "[uk]$ To plan ", "[PR] ??? MT"],
-  "packAsset0": [
-    "avantage Package Serenity",
-    "[uk] avantage Package Serenity",
-    "[PR]avantage Package Serenity"
-  ],
-  "packAsset1": [
-    "avantage Package Elite",
-    "[uk] avantage Package Elite",
-    "[PR]avantage Package Elite"
-  ],
-  "packAsset2": [
-    "avantage Package Experience",
-    "[uk] avantage Package Experience",
-    "[PR]avantage Package Experience"
-  ],
-  "packMore": [
-    "Package En savoir plus",
-    "[uk] Package En savoir plus",
-    "[PR] PackageEn savoir plus"
-  ],
-  "infoServiceTitle": ["Existentia", "Existentia", "Existentia"],
-  "service0": ["aides à domicile", "[uk] Home services", "[PR] Home services"],
-  "service1": ["En famille", "[uk] Familly", "[PR] Home services"],
-  "service2": ["Mobilité", "[uk] Mobility", "[PR] Home services"],
-  "service3": ["Voiturier", "[uk] Car", "[PR] Home services"],
-  "service4": ["au mozambique", "[uk] In the country", "[PR] Home services"],
-  "service5": ["Loisirs", "[uk] leisures", "[PR] Home services"],
-
-  "serviceDesc0": [
-    "aides à domicile  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[UK] aides à domicile  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[PR] aides à domicile  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
-  ],
-  "serviceDesc1": [
-    "En famille  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[UK] En famille  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[PR] En famille  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
-  ],
-  "serviceDesc2": [
-    "Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[UK] Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[PR] Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
-  ],
-  "serviceDesc3": [
-    "Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[UK] Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[PR] Mobilité  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
-  ],
-  "serviceDesc4": [
-    "au mozambique  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[UK] au mozambique  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[PR] au mozambique  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
-  ],
-  "serviceDesc5": [
-    "Loisirs  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[UK] Loisirs  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. ",
-    "[PR] Loisirs  description long  Eu nisl nunc mi ipsum faucibus vitae aliquet. Suspendisse potenti nullam ac tortor vitae purus faucibus. Morbi tristique senectus et netus et malesuada fames ac.. "
-  ],
-  "serviceMore": [
-    "Package En savoir plus",
-    "[uk] Package En savoir plus",
-    "[PR] PackageEn savoir plus"
-  ],
-
-  "401": ["Contact", "[uk] Contact", "[PR]Contact"],
-
-  "402": ["Map ", "[uk] Map ", "[PR]Map "],
-  "403": ["FAQ", "[uk] FAQ", "[PR]FAQ"],
-  "404": ["CGV", "[uk] CGV", "[PR]CGV"],
-  "405": ["Contact", "[uk] Contact", "[PR]Contact"],
-  "406": ["Contact", "[uk] Contact", "[PR]Contact"],
-  "407": ["mention légales", "[uk] mention légales", "[PR]mention légales"],
-  "408": [
-    "Données personnelles",
-    "[uk] Données personnelles",
-    "[PR]Données personnelles"
-  ],
-  "409": [
-    " Contactez-nous sur whatsapp ",
-    "[uk]  Contactez-nous sur whatsapp ",
-    "[PR] Contactez-nous sur whatsapp "
-  ],
-  "9995": [
-    "Prix Package Alpha",
-    "[uk] Prix Package Alpha",
-    "[PR]Prix Package Alpha"
-  ]
+    "ourEmail": {
+      "fr": "mail : contact@caracol.com",
+      "en": "[en]mail : contact@caracol.com",
+      "pr": "[pr]mail : contact@caracol.com"
+    },
+    "message": {
+      "fr": "message",
+      "en": "[en]message",
+      "pr": "[pr]message"
+    }
+  }
 }

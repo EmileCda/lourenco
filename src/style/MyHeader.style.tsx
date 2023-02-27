@@ -41,7 +41,7 @@ export const Logo = styled.div`
   transform: rotate(-10deg);
 
 `;
-export const LanguageBar = styled.div`
+export const LanguageBarContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,6 +57,7 @@ export const NavBar = styled.div`
   font-family: ${AppTheme.font.regular};
   font-size: .8rem;
   /* display: none; */
+  display : ${props => (props.isVisible ? `none` : "flex")};
   
   li a {
     cursor: pointer;
@@ -79,5 +80,12 @@ export const NavBar = styled.div`
 export const BurgerMenu = styled.div`
   color: ${AppTheme.mainColor.forground};
   font-size: 2rem;
+  cursor: pointer;
+  display : ${props => (props.isVisible ?  "flex" : `none` )};
+`;
+
+export const Img = styled.img`
+  height: 2rem;
+  width: 2rem;
   cursor: pointer;
 `;
