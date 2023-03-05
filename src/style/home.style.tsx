@@ -1,12 +1,13 @@
+import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import { AppGlobalStyle, AppTheme } from "./App.style";
 
-export const ServiceInformationContainer = styled.div`
+export const InformationContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 0px 10px;
   background-color: ${AppTheme.mainColor.backGround};
-  
+
   min-width: 100vw;
   a {
     text-decoration: none;
@@ -17,18 +18,18 @@ export const ServiceInformationContainer = styled.div`
 `;
 
 export const Title = styled.div`
-margin: 10px;
+  margin: 10px;
   background-color: ${AppTheme.mainColor.backGround};
   color: ${AppTheme.mainColor.forground};
   min-width: 100vw;
-  border-bottom: 1px solid  ${AppTheme.mainColor.forground}; 
-  border-top: 1px solid    ${AppTheme.mainColor.forground}; 
-    font-family: ${AppTheme.font.extra};
-    font-weight: 300;
-    font-size: 2rem;
-    text-align: center;
-    color: ${AppTheme.mainColor.forground};
-    a{
+  border-bottom: 1px solid ${AppTheme.mainColor.forground};
+  border-top: 1px solid ${AppTheme.mainColor.forground};
+  font-family: ${AppTheme.font.extra};
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+  color: ${AppTheme.mainColor.forground};
+  a {
     text-decoration: none;
   }
 `;
@@ -43,14 +44,14 @@ export const Prelude = styled.div`
 export const Image = styled.div`
   background-color: ${AppTheme.mainColor.backGround};
   color: ${AppTheme.mainColor.forground};
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 
-img{
-/* width: 10vh; */
-  max-width: 300px;
-  border-radius: 10px;
-}
+  img {
+    /* width: 10vh; */
+    max-width: 300px;
+    border-radius: 10px;
+  }
 `;
 export const Epilog = styled.div`
   background-color: ${AppTheme.mainColor.backGround};
@@ -60,3 +61,12 @@ export const Epilog = styled.div`
   padding: 20px;
   text-align: justify;
 `;
+
+export const InformationArayContainer = styled.div<{isSmall: boolean}>`
+  display: flex;
+  flex-direction: ${props=>props.isSmall ? "column": "row" };
+  flex-direction :r
+
+`;
+
+/* color: ${props => props.primary ? "white" : "palevioletred"}; */

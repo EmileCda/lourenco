@@ -50,7 +50,13 @@ export const LanguageBarContainer = styled.div`
     max-height: 30px;
   }
 `;
-export const NavBar = styled.div`
+
+export type NavBarProps = {
+  isVisible : boolean;
+}
+
+
+export const NavBar= styled.div`
   font-family: ${AppTheme.font.regular};
   font-size: 0.8rem;
 

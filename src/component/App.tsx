@@ -1,6 +1,5 @@
 import { StrictMode, useState } from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import { setCounter } from "../store/carousel.store";
 import { AppGlobalStyle } from "../style/App.style";
 import About from "./About";
 import Footer from "./Footer";
