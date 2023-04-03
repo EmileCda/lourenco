@@ -23,7 +23,6 @@ export const interval = myDataLang["carouselInterval"];
 
 export default function App() {
 
-  const { lang, isBurgerMennuVisible } = useStore(headerStore);
   const isNotMobile = useMediaQuery({ minWidth: 768 })
   setIsBurgerMennuVisible(!isNotMobile);
  
